@@ -12,7 +12,6 @@ import {Link, NavLink, useNavigate } from 'react-router-dom'
 import UserContext from '../../contexts/UserContext'
 import CartContext from '../../contexts/CartContext'
 import { getSuggestionsAPI } from '../../services/ProductServices'
-import index from 'toastify'
 
 const Navbar = () => {
   const [search, setSearch] = useState("")
